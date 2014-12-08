@@ -1,0 +1,5 @@
+package scalaForImpatient
+
+class ChapterEight {
+
+}

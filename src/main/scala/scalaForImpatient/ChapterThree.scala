@@ -67,7 +67,6 @@ object ChapterThree {
 
   def timezoneSet = {
     var array = java.util.TimeZone.getAvailableIDs().filter((s: String) => s.startsWith("America"))
-    //    array.map((s :String) => s.split("/")(1)).sortWith(_ < _).toSeq
     array.map(_.split("/")(1).sortWith(_ < _)).toSeq
   }
 }
