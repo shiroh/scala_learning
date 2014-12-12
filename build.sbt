@@ -1,7 +1,7 @@
 name := "scala-test-2" 
  
-version := "0.0.0" 
+version := "0.0.1" 
  
 scalaVersion := "2.11.4" 
 
-libraryDependencies += "org.slf4j" % "jcl-over-slf4j" % "1.7.7" 
+libraryDependencies += "org.apache.spark" % "spark-core_2.10" % "1.1.1"

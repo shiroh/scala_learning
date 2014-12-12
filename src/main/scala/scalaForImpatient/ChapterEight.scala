@@ -82,7 +82,7 @@ package local{
    */
 	class Point(var x: Double,var y: Double)
 	class LabeledPoint(label:String, x: Double, y: Double) extends Point(x, y)
-}
+} 
 //------------------------------------------------------------------------//
 
 abstract class Shape{
